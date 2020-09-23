@@ -1,0 +1,41 @@
+/* About Page CSS*/
+
+blogroll {
+  position: relative;
+  max-width: 960px;
+  margin: 0rem auto;
+  display: block; 
+  margin-bottom: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid #f0f2f7;
+  margin-bottom: 10px;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 3px rgba(18,18,18,.1);
+  box-shadow: 0 1px 3px rgba(18,18,18,.1);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+.blogroll-title h1 {
+  font-size: 2em;
+  margin: 1em 0 1em 1em;
+}
+
+.member img {
+  float: left;
+  margin: 0.5em 0 0.5em 1em;
+  width: 80px;
+  height: 80px;
+}
+
+.member h2 {
+  float: left;
+  font-size: 2em;
+  margin: 1em 0 1em 1em;
+
+}

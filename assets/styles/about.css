@@ -1,0 +1,78 @@
+/* About Page CSS*/
+
+about {
+  position: relative;
+  max-width: 960px;
+  margin: 0rem auto;
+  display: block; 
+  margin-bottom: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid #f0f2f7;
+  margin-bottom: 10px;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 3px rgba(18,18,18,.1);
+  box-shadow: 0 1px 3px rgba(18,18,18,.1);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.del-content {
+  text-decoration:line-through;
+}
+
+.author-avatar {
+  margin: 1em;
+  float: left
+}
+
+.avatar-frame {
+  position: absolute;
+  width: 8em;
+  height: 8em;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.avatar-frame-image {
+  transform: scale(1.22);
+  background: none;
+  filter: none;
+  display: block;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header-icon {
+  width: 8em;
+  height: 8em;
+  margin: auto;
+}
+
+.author-info {
+  margin: 1em 0 0 1em;
+  float: left;
+  width: 600px;
+  height: 120px;
+}
+
+.author-name h1 {
+  font-size: 2em;
+  margin: 0 0 1em 0;
+}
+
+.author-intro p {
+  margin: 0 0 1.5em 0;
+}
+
+.post-link {
+    margin: 0;
+}
+
+.link-zhihu{color:#0084FF; padding-right: 1em;}
+.link-bilibili{color:#FB7299; padding-right: 1em;}
+.link-weibo{color:#FF8140; padding-right: 1em;}
