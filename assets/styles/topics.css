@@ -1,36 +1,20 @@
-/* About Page CSS*/
+/* topics */
 
 body {
   background-color: #FFF;
 }
 
-.desc {
-  margin-bottom: 10px;
-  background: #fff;
-  overflow: hidden;
-  font-weight: 450;
-
-
-  
-}
-
-.desc-info {
-  margin: 5em auto 2em auto;
-  width: 60em;
-}
-
-#authors {
+#topics {
   display: flex;
   flex-direction: row;
-  margin: 2em auto 2em auto;
-  width: 60em;
+  max-width: 920px;
   flex-wrap: wrap;
   margin: 0 auto;
 }
 
-.author {
-  width: 16em;
-  height: 8em;
+.topic {
+  width: 13em;
+  height: 4.2em;
   padding: 2em 1em 0 0;
   color: #000000;
   font-size: 1.6em;
@@ -38,35 +22,35 @@ body {
   float: left;
 }
 
-.author-img-div {
+.topic-img-div {
   float: left;
   width: 85px;
   height: 85px;
 }
 
-.author-img {
+.topic-img {
   width: 85px;
   height: 85px;
   float: left;
   border-radius: 0.6rem;
 }
 
-.author-content {
+.topic-content {
   float: left;
-  width: 10em;
+  width: 7em;
   margin: 0 0 0 1rem;
 }
 
-.author-title {
+.topic-title {
   font-size: 0.8em;
   float: left;
 }
 
-.author-desc {
+.topic-desc {
   float: left;
   /*background-color: #283471;*/
-  height: 2.6em;
-  width: 18em;
+  height: 2.2em;
+  width: 12em;
   color: #909090;
   font-size: 0.6em;
   line-height: 1.2em;
@@ -89,16 +73,3 @@ body {
   border-radius: 0.3rem;
 
 }
-
-.post-link a {
-  font-size: 0.6em;
-  margin: 0.6em 0 0 0;
-}
-
-.del-content {
-   text-decoration:line-through;
-}
-
-.link-zhihu{color:#0084FF; padding-right: 1em;}
-.link-bilibili{color:#FB7299; padding-right: 1em;}
-.link-weibo{color:#FF8140; padding-right: 1em;}

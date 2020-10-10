@@ -1,193 +1,60 @@
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
 
-.cf:after {
-  content: "";
-  display: table;
-  clear: both; }
 
-body {
-    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
-  font-size: 15px;
-  color: #121212;
-  background: #f6f6f6;
-  -webkit-tap-highlight-color: rgba(18,18,18,0);
+#poster {
+  position:fixed;
+ top: 0;
+ left: 0;
+ width:100%;
+ height:100%;
+ min-width: 1000px;
+ z-index:-10;
+ zoom: 1;
+ background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-position: center 0;
+  background-image: url(../images/FlexibleLOM-Adapter-Card-2.jpg);
 }
 
-.inner {
-  max-width: 960px;
-  margin: 1rem auto; }
-
-.page {
-  max-width: 800px;
-  margin: 1rem auto;
-  font-size: 18px; }
-
-p {
-  margin-bottom: 1rem; }
-
-a {
-  color: inherit;
-  text-decoration: none; }
-
-a:hover {
-  opacity: .5; }
-
-
-h1 {
-  font-family: Source Sans Pro; }
-
-header {
-  position: relative;
-    z-index: 100;
-    min-width: 1000px;
-    overflow: hidden;
-    background: #fff;
-    -webkit-box-shadow: 0 1px 3px rgba(18,18,18,.1);
-    box-shadow: 0 1px 3px rgba(18,18,18,.1);
-    background-clip: content-box;
+#poster-text {
+  padding: 2em;
+  color: #f5f5f7;
+  font-size: 96px;
+  line-height: 1.04167;
+  font-weight: 600;
 }
-  header .inner {
-    padding: 1.5rem;
-    font-size: 1.5rem;
-    max-width: 960px;
-    margin: 0 auto; }
-  header .logo {
-    text-transform: uppercase;
-    font-weight: 500;
-    vertical-align: middle;
-    font-size: 1.35rem;
-    color: inherit; }
-  header nav a {
-    font-size: .75rem;
-    color: #999; }
 
-nav.left {
-  float: left; }
+#poster-text h1 {
+  margin: 0 auto;
+}
 
-nav.right {
-  float: right; }
+.title {
+  font-size: 46px;
+  line-height: 1.04167;
+  font-weight: 400;
+}
 
-nav a {
-  display: inline-block;
-  margin: 0 .5rem; }
-  nav a:hover {
-    opacity: .7; }
+.sub-title {
+  font-size: 96px;
+  line-height: 1.04167;
+  font-weight: 600;
+}
 
-.info {
-  margin: .5rem 0 0;
-  padding: .5rem 1.5rem;
-  font-weight: 300; }
-  .info h1 {
-    font-size: 1.7rem;
-    /*font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;*/ }
-
-.info .cell {
-  display: table-cell;
-  width: 100%; }
-  .info .cell:last-child {
-    text-align: right;
-    white-space: nowrap; }
-
-content {
-    background: #f6f6f6;
-    -webkit-tap-highlight-color: rgba(18,18,18,0);
-    display: block;
+#poster-text-highlight {
+  color: rgb(255,194,87);
 }
 
 #entry {
   margin: 20px 0 0 0;
 }
 
-article {
-  position: relative;
-  max-width: 960px;
-  margin: 0rem auto;
-  display: block; 
-  margin-bottom: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-bottom: 1px solid #f0f2f7;
-    margin-bottom: 10px;
-    background: #fff;
-    overflow: hidden;
-    border-radius: 2px;
-    -webkit-box-shadow: 0 1px 3px rgba(18,18,18,.1);
-    box-shadow: 0 1px 3px rgba(18,18,18,.1);
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-  article p a {
-    color: #6871df;
-    text-decoration: none; }
-  article .description {
-    margin: 1rem 0; }
+#other-entry {
+  background-color: rgb(255,255,255,0.7);
+  padding: 0.2em;
+  font-size: 2em;
+  font-weight: 600;
+  position:absolute;
+  bottom:1em;
+  right:0;
+} 
 
-.images {
-  margin: 2rem 0; }
-  .images article .info {
-    line-height: 1.35; }
-
-.stats {
-  color: #999;
-  font-size: .85rem;
-  line-height: 1.6;
-  margin: 0.4em 0 0 0; 
-}
-
-.stats .item {
-  margin-right: .35rem; }
-  .stats .item i {
-    margin-right: .15rem; }
-
-.preview {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 150px;
-  line-height: 150px;
-  color: #fff;
-  overflow: hidden; }
-
-.px-iso {
-  line-height: .85;
-  font-family: Helvetica Neue, Arial, sans-serif; }
-
-.exif {
-  padding: 2rem 0 1rem 1rem; }
-  .exif .item {
-    display: inline-block;
-    padding: 0 .5rem;
-    text-align: center;
-    line-height: 1.6;
-    font-size: 0.75rem; }
-  .exif .item i {
-    display: block;
-    font-size: 1.2rem;
-    margin-bottom: 0.35rem; }
-
-@media (max-width: 640px) {
-  .info .cell {
-    display: block; }
-
-  .exif {
-    text-align: center; } }
-/* LIGHTBOX /w CONSTRAINTS */
-.lightbox {
-  margin: 1.5rem auto 0;
-  cursor: pointer; }
-  .lightbox img {
-    max-width: 100%;
-    padding: 0 1rem; }
-
-@media (max-height: 840px) {
-  .lightbox.constraint {
-    max-width: 1000px; } }
-
-#kcores-logo {
-  width: 8em;
-}

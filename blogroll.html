@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/styles/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/base.css">
     <link rel="stylesheet" type="text/css" href="assets/styles/blogroll.css">
 </head>
 
@@ -19,45 +19,57 @@
     <header>
       <div class="inner cf">
         <nav class="left">
-          <a href="https://kcores.com/" class="logo"><image id="kcores-logo" src="assets/logo/kcores-logo.svg" /></a>
           <a href="https://kcores.com/" class="logo"><h1>KCORES 氪金核心</h1></a>
-          <a href="https://kcores.com/about">关于</a>
+          <a href="https://kcores.com/topics" class="nav-button"><h1>话题</h1></a>
+          <a href="https://kcores.com/reading" class="nav-button"><h1>阅读</h1></a>
         </nav>
         <nav class="right">
+          <a href="https://kcores.com/about">关于</a>
           <a href="https://kcores.com/blogroll">友情链接</a>
           <a href="https://github.com/KCORES">Github</a>
       </nav></div>
     </header>
  
+
     <!-- Content -->
 <content>
 
 <div id="entry">
 
-<blogroll>
-  <div class="blogroll-title">
-          <h1>友情链接 (按照添加时间顺序):</h1>    
-  </div>
-</blogroll>
-
-<blogroll>
-    <div class="member">
-          <img src="http://jinkan.org/img/favicon.png?ver=20200505" />
-          <h2><a target="_blank" href="http://jinkan.org/" >人间 · Jinkan</a></h2>    
+  <div class="desc">
+    <div class="desc-info">
+          <h1>友情链接 (按添加时间顺序): </h1> 
     </div>
-</blogroll>
-
-
-
-
+    <div id="friends">
+    <!--  -->
+    <a target="_blank" href="http://jinkan.org/">
+    <div class="friend">
+        <div class="friend-img-div">
+            <img class="friend-img" src="http://jinkan.org/img/favicon.png?ver=20200505" />
+        </div>
+        <div class="friend-content">
+            <div class="friend-title">人间 · Jinkan</div><br />
+            <!-- max 30 character -->
+            <div class="friend-desc">某白学 Python 码农群体</div><br /> 
+            <div class="friend-url">https://jinkan.org/</div><br /> 
+           
+        </div>
+    </div>
+  </a>
   
+    
+    </div>       
+  </div>
+
+
+
 
 </div>
 
 </content>
+
  
- 
-  </div>
+</div>
 
 
 </body></html>
