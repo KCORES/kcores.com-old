@@ -1,14 +1,6 @@
-/*  
-    toipc should less than 9 chinese character.
-    topicIcon is 100px * 100px
-    topicDesc should less than 20 chinese character.
-    entryList.title should less than 30 chinese character.
-    entryList.desc should less than 120 chinese character.
-    entryList.cover is 210px * 120px
-*/
 {
     "toipc": "家用万兆网络指南",
-    "topicIcon": "./assets/content-image/topic-icon/10gbps-network-for-home.jpg", 
+    "topicIcon": "./assets/content-image/topic-icon/10gbps-network-for-home.png", 
     "topicDesc": "从 0 组建家用千兆, 万兆, 100G 网络",
     "entryList":[
         {
@@ -23,7 +15,7 @@
             "title":"家用万兆网络指南 α - 比网线还便宜的双口万兆网卡!",
             "desc":"25块, 搞定一张万兆网卡!",
             "link":"https://www.bilibili.com/video/BV1a7411Z7oD",
-            "author":"@awpak78",
+            "author":"@AlphaArea",
             "date":"2020-03-18",
             "cover":"./assets/content-image/entry-cover/20200923173659.png"
         },
