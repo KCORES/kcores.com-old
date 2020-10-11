@@ -1,0 +1,76 @@
+/* topics */
+
+body {
+  background-color: #FFF;
+}
+
+#topics {
+  display: flex;
+  flex-direction: row;
+  width: 80em;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding:0 0 0 3.2em;
+}
+
+.topic {
+  width: 11.9em;
+  height: 4.6em;
+  padding: 2em 0em 0 0;
+  color: #000000;
+  font-size: 1.6em;
+  font-weight: 600;
+  float: left;
+}
+
+.topic-img-div {
+  float: left;
+  width: 85px;
+  height: 85px;
+}
+
+.topic-img {
+  width: 85px;
+  height: 85px;
+  float: left;
+  border-radius: 0.6rem;
+}
+
+.topic-content {
+  float: left;
+  width: 7em;
+  margin: 0 0 0 1rem;
+}
+
+.topic-title {
+  font-size: 0.8em;
+  float: left;
+}
+
+.topic-desc {
+  float: left;
+  /*background-color: #283471;*/
+  height: 2.2em;
+  width: 12em;
+  color: #909090;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  font-weight: 200;
+  margin: 0 0 0 0;
+}
+
+.entry-count {
+  float: left;
+  color: #888;
+  font: inherit;
+  font-size: 0.6em;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.6em;
+  width: 3em;
+  height: 1.6em;
+  margin: 0.4em 0 0 0;
+  background-color: rgb(240,240,240,0.9);
+  border-radius: 0.3rem;
+
+}

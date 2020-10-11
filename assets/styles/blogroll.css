@@ -1,0 +1,119 @@
+/* Blogroll Page CSS*/
+
+body {
+  background-color: #FFF;
+}
+
+.desc {
+  margin-bottom: 10px;
+  background: #fff;
+  overflow: hidden;
+  font-weight: 450;
+
+
+  
+}
+
+.desc-info {
+  margin: 4em auto 0.2em auto;
+  width: 60em;
+  height: 2em;
+}
+
+.desc-info h1 {
+  font-size: 1em;
+  float: left;
+  font-weight: 600;
+}
+
+#friends {
+  display: flex;
+  flex-direction: row;
+  margin: 2em auto 2em auto;
+  width: 60em;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.friend {
+  width: 16em;
+  height: 8em;
+  padding: 2em 1em 0 0;
+  color: #000000;
+  font-size: 1.6em;
+  font-weight: 600;
+  float: left;
+}
+
+.friend-img-div {
+  float: left;
+  width: 85px;
+  height: 85px;
+}
+
+.friend-img {
+  width: 85px;
+  height: 85px;
+  float: left;
+  border-radius: 0.6rem;
+}
+
+.friend-content {
+  float: left;
+  width: 10em;
+  margin: 0 0 0 1rem;
+}
+
+.friend-title {
+  font-size: 1.2em;
+  float: left;
+}
+
+.friend-desc {
+  float: left;
+  /*background-color: #283471;*/
+  height: 1.9em;
+  width: 18em;
+  color: #909090;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  font-weight: 200;
+  margin: 1em 0 0 0;
+}
+
+.friend-url {
+  float: left;
+  /*background-color: #283471;*/
+  height: 2.6em;
+  width: 18em;
+  color: #1e50a2;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  font-weight: 200;
+  margin: 0 0 0 0;
+}
+
+.entry-count {
+  float: left;
+  color: #888;
+  font: inherit;
+  font-size: 0.6em;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.6em;
+  width: 3em;
+  height: 1.6em;
+  margin: 0.4em 0 0 0;
+  background-color: rgb(240,240,240,0.9);
+  border-radius: 0.3rem;
+
+}
+
+.post-link a {
+  font-size: 0.6em;
+  margin: 0.6em 0 0 0;
+}
+
+.link-zhihu{color:#0084FF; padding-right: 1em;}
+.link-bilibili{color:#FB7299; padding-right: 1em;}
+.link-weibo{color:#FF8140; padding-right: 1em;}

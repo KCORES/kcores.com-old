@@ -1,0 +1,31 @@
+{
+    "toipc": "P106矿卡魔改",
+    "topicIcon": "./assets/content-image/topic-icon/p106-card.png", 
+    "topicDesc": "矿卡也可以变废为宝",
+    "entryList":[
+        {
+            "title":"400块钱的1060显卡玩到爽？P106矿卡实测",
+            "desc":"预计这一波起来之后老黄的显卡库存和还有笔记本扩展坞会受到冲击, 毕竟性能没多少区别，垃圾佬和冒险王能爽一会。小白被坑的几率变得更大了。淘宝店主估计会很快跟进。",
+            "link":"https://www.bilibili.com/video/BV1wt411X7kM",
+            "author":"@AlphaArea",
+            "date":"2018-11-30",
+            "cover":"./assets/content-image/entry-cover/20200923182245.png"
+        },
+        {
+            "title":"P106挖矿显卡也要玩游戏",
+            "desc":"P106显卡修改驱动玩游戏",
+            "link":"https://www.bilibili.com/video/BV1At411X7Q9",
+            "author":"@AlphaArea",
+            "date":"2018-11-30",
+            "cover":"./assets/content-image/entry-cover/20200923182531.png"
+        },
+        {
+            "title":"P106矿卡拆解与极限超频挑战",
+            "desc":"TimeSpy分战平华硕顶级GTX1060，可惜PCIEx8带宽瓶颈，不然应该更强一点",
+            "link":"https://www.bilibili.com/video/BV1Kt411X7f6",
+            "author":"@AlphaArea",
+            "date":"2018-11-30",
+            "cover":"./assets/content-image/entry-cover/20200923182634.png"
+        }
+    ]
+}

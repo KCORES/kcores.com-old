@@ -1,0 +1,65 @@
+{
+    "toipc": "家用万兆网络指南",
+    "topicIcon": "./assets/content-image/topic-icon/10gbps-network-for-home.png", 
+    "topicDesc": "从 0 组建家用千兆, 万兆, 100G 网络",
+    "entryList":[
+        {
+            "title":"家用万兆网络指南 6 - 比网线还便宜的双口万兆网卡! 如何给 Mellanox 网卡刷固件或备份固件",
+            "desc":"接上篇, 如何给 OCP 卡刷固件. 本文同样适用于其他 Mellanox 网卡",
+            "link":"https://zhuanlan.zhihu.com/p/114822136",
+            "author":"@Karminski-牙医",
+            "date":"2020-03-20",
+            "cover":"./assets/content-image/entry-cover/v2-5008c412be880658164ea73d22164f6a_1440w.jpg"  
+        },
+        {
+            "title":"家用万兆网络指南 α - 比网线还便宜的双口万兆网卡!",
+            "desc":"25块, 搞定一张万兆网卡!",
+            "link":"https://www.bilibili.com/video/BV1a7411Z7oD",
+            "author":"@AlphaArea",
+            "date":"2020-03-18",
+            "cover":"./assets/content-image/entry-cover/20200923173659.png"
+        },
+        {
+            "title":"家用万兆网络指南 5 - 布线和拓扑",
+            "desc":"浅谈用万兆网络该如何布线",
+            "link":"https://zhuanlan.zhihu.com/p/78384704",
+            "author":"@Karminski-牙医",
+            "date":"2019-08-19",
+            "cover":"./assets/content-image/entry-cover/v2-b398ce47c293ef172aefaf3287d0d385_r.jpg"
+        },
+        {
+            "title":"家用万兆网络指南 4 - 超便宜的24口万兆交换机, 台达-7024",
+            "desc":"是时候发挥垃圾佬的优良作风了, IDC 下架万兆交换机魔改变家用万兆交换机",
+            "link":"https://zhuanlan.zhihu.com/p/77243708",
+            "author":"@Karminski-牙医",
+            "date":"2019-08-08",
+            "cover":"./assets/content-image/entry-cover/v2-1537af9fdff1ab90d4e5adf8f0d376f6_r.jpg"
+        },
+        {
+            "title":"家用万兆网络指南 3 - 超静音 MikroTik 解决方案",
+            "desc":"想要万兆交换机? 来看看这个个方案",
+            "link":"https://zhuanlan.zhihu.com/p/76578200",
+            "author":"@Karminski-牙医",
+            "date":"2019-08-04",
+            "cover":"./assets/content-image/entry-cover/v2-2a3e9b139b7b2262dd36314baf3b34a4_r.jpg"
+        },
+        {
+            "title":"家用万兆网络指南 2 - 如何选择光纤和光模块",
+            "desc":"想用光网络? 那么该如何挑选光纤和光模块呢? 且看本文",
+            "link":"https://zhuanlan.zhihu.com/p/76400103",
+            "author":"@Karminski-牙医",
+            "date":"2019-08-02",
+            "cover":"./assets/content-image/entry-cover/v2-1cdf4833e26021970ad8cd3c32f46670_r.jpg"
+        },
+        {
+            "title":"家用万兆网络指南 1 - 不如先来个最简单的 100G 网络",
+            "desc":"一步到位, 100G, 不废话, 感受下电脑跟不上网速是什么感觉.",
+            "link":"https://zhuanlan.zhihu.com/p/74082377",
+            "author":"@Karminski-牙医",
+            "date":"2019-07-18",
+            "cover":"./assets/content-image/entry-cover/v2-e098c57b6f627358bae05ba37de5b00d_1440w.jpg"
+        }
+    ]
+
+}
+
