@@ -11,6 +11,7 @@ import (
 	"encoding/hex"
 	"crypto/md5"
 	"os"
+	"sort"
 	"image"
 	_ "image/jpeg"
     _ "image/png"
@@ -18,7 +19,7 @@ import (
 )
 
 const (
-	CONTENT_BUILDER_VERSION = "0.01"
+	CONTENT_BUILDER_VERSION = "0.0.2"
 )
 
 const (
@@ -34,6 +35,7 @@ type Topic struct {
 	ToipcName       string  `json:"toipc"`
 	TopicIcon       string  `json:"topicIcon"`
 	TopicDesc       string  `json:"topicDesc"`
+	LongTopicDesc   string  `json:"longTopicDesc"`
 	EntryList       []Entry `json:"entryList"`
 	EntryCount      int     
 	ListPageId      string
@@ -77,15 +79,18 @@ func main() {
     		// fill EntryCount & ListPageId
     		Topic.EntryCount = len(Topic.EntryList)
     		tmd5 := md5.Sum([]byte(Topic.ToipcName))
-    		Topic.ListPageId = hex.EncodeToString(tmd5[:])
+			Topic.ListPageId = hex.EncodeToString(tmd5[:])
+			// sort Entry list
+			sort.Slice(Topic.EntryList, func(i, j int) bool {
+			  return Topic.EntryList[i].Date > Topic.EntryList[j].Date
+			})
     		// load Topics & AllEntrys
     		Topics = append(Topics, Topic)
     		for _, v := range Topic.EntryList {
     			AllEntrys = append(AllEntrys, v)
-    		}
+			}
     		// log content
     		DumpTopic(Topic)
-
     }
 
 	// generate toipcs page
@@ -109,7 +114,7 @@ func getImageDimension(imagePath string) (int, int) {
 
     img, _, err := image.DecodeConfig(file)
     if err != nil {
-        fmt.Fprintf(os.Stderr, "%s: %v\n", imagePath, err)
+        fmt.Fprintf(os.Stderr, "\033[31m %s: %v\033[0m\n", imagePath, err)
     }
     return img.Width, img.Height
 }
@@ -120,7 +125,8 @@ func DumpTopic(Topic Topic) {
     fmt.Printf("Topic.ToipcName :	%s\n", Topic.ToipcName)
 	fmt.Printf("Topic.TopicIcon :	%s\n", Topic.TopicIcon)
 	fmt.Printf("Topic.TopicDesc :	%s\n", Topic.TopicDesc)
-	fmt.Printf("Topic.EntryCount :	%s\n", Topic.EntryCount)
+	fmt.Printf("Topic.LongTopicDesc :	%s\n", Topic.LongTopicDesc)
+	fmt.Printf("Topic.EntryCount :	%d\n", Topic.EntryCount)
 	fmt.Printf("Topic.ListPageId :	%s\n", Topic.ListPageId)
 	fmt.Printf("Topic.EntryList :\n")
 	for k, v := range Topic.EntryList {
@@ -132,6 +138,10 @@ func DumpTopic(Topic Topic) {
 func GenerateTopicsPage(Topics Topics) {
     fmt.Printf("GenerateTopicsPage Start.\n")
 	var topicsPage string
+	// sort by topic name
+	sort.Slice(Topics, func(i, j int) bool {
+	  return Topics[i].ToipcName > Topics[j].ToipcName
+	})
 	// fill template
 	topicsPage += TOPICS_P1
 	for _, toipc := range Topics {
@@ -166,6 +176,10 @@ func GenerateReadingPage(AllEntrys AllEntrys) {
 	var section2 string
 	var boxCounter int
 	boxCounter = 1
+	// sory all entry
+	sort.Slice(AllEntrys, func(i, j int) bool {
+	  return AllEntrys[i].Date > AllEntrys[j].Date
+	})
 	// fill template
 	readingPage += READING_P1
 	for _, entry := range AllEntrys {
@@ -210,6 +224,11 @@ func GenerateListPage(Topic Topic) {
 	var section2 string
 	var boxCounter int
 	boxCounter = 1
+	// check topic desc
+	topicDesc := Topic.TopicDesc
+	if len(Topic.LongTopicDesc) != 0 {
+		topicDesc = Topic.LongTopicDesc
+	}
 	// fill template
 	targetFile := LIST_PAGE_ADDR_PREFIX + Topic.ListPageId + LIST_PAGE_ADDR_SUFFIX
 	listPage += LIST_P1
@@ -231,7 +250,7 @@ func GenerateListPage(Topic Topic) {
 	listPage += fmt.Sprintf(LIST_P3, 
 		Topic.TopicIcon,
 		Topic.ToipcName,
-		Topic.TopicDesc)
+		topicDesc)
 	listPage += section2
 	listPage += LIST_P5
 	// write file

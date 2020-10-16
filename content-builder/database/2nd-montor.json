@@ -1,0 +1,96 @@
+{
+    "toipc": "第二块显示器",
+    "topicIcon": "./assets/content-image/topic-icon/2nd-monitor.png",
+    "topicDesc": "显示器评测栏目, ビ~ 原来是战斗力只有 240Hz 的渣",
+    "longTopicDesc": "显示器评测栏目, ビ~ 原来是战斗力只有 240Hz 的渣",
+    "entryList": [
+        {
+            "title": "超慢镜头下测量液晶屏响应时间",
+            "desc": "SONY Xpreia XZ1 Compact, 960fps超级慢动作拍摄",
+            "link": "https://www.bilibili.com/video/BV1cW411i7Kw",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2018-01-20",
+            "cover": "./assets/content-image/entry-cover/dispaly-latency.png"
+        },
+        {
+            "title": "960fps超级慢动作拍摄AMOLED/LCD屏幕PWM调光",
+            "desc": "SONY Xpreia XZ1 Compact, 960fps超级慢动作拍摄AMOLED、LCD屏幕PWM调光, 32倍速慢放",
+            "link": "https://www.bilibili.com/video/BV1UW411q765",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2017-12-31",
+            "cover": "./assets/content-image/entry-cover/960fps-pwm-test.png"
+        },
+        {
+            "title": "你也配称72色域？炫龙KP2 72色域屏幕测试",
+            "desc": "越来越多的笔记本以高色域屏幕为卖点，都用72% IPS进行宣传，但是这72% NTSC和100% sRGB的距离可是说不清道不明",
+            "link": "https://zhuanlan.zhihu.com/p/59075539",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2019-03-12",
+            "cover": "./assets/content-image/entry-cover/v2-787f5bb1f9aa6971faf48240d65f88c3_1440w.jpg"
+        },
+        {
+            "title": "远古显示器也能ΔE<2",
+            "desc": "便宜捡的上古时代的方正液晶显示器，用来给只有VGA输出的服务器救砖用。超过10年历史，甚至无法在网上找到该型号的信息",
+            "link": "https://zhuanlan.zhihu.com/p/54385296",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2019-01-08",
+            "cover": "./assets/content-image/entry-cover/v2-c64408c2176d7d38ec429aa31c2e835e_1440w.jpg"
+        },
+        {
+            "title": "不到1500的27寸4K显示器",
+            "desc": "惯例先吹后贬，想买的先拉到后面看吐槽压压惊",
+            "link": "https://zhuanlan.zhihu.com/p/49849475",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2018-11-14",
+            "cover": "./assets/content-image/entry-cover/v2-598f613c1346ee1388d5a0b302f70dda_1440w.jpg"
+        },
+        {
+            "title": "正确的给笔记本屏幕色彩分级",
+            "desc": "笔记本屏幕水品落后桌面显示器一个时代是事实，现在随便拿一台垃圾显示器来都能往100% sRGB靠——虽然有的时候会歪不少——但也比笔记本上还在60% sRGB挣扎强多了",
+            "link": "https://zhuanlan.zhihu.com/p/35341026",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2018-04-06",
+            "cover": "./assets/content-image/entry-cover/v2-74550dab3c9445f52d97ac1ab19115bf_r.jpg"
+        },
+        {
+            "title": "屏幕色域认识误区科普",
+            "desc": "色域较小会使饱和度偏低，也就是彩色会略微暗淡一些，但绝不至于伤眼",
+            "link": "https://zhuanlan.zhihu.com/p/37908396",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2018-06-28",
+            "cover": "./assets/content-image/entry-cover/v2-8a1fcb9e27982e4a9c9413e30e84ce00_720w.jpg"
+        },
+        {
+            "title": "明基显示器专业评测 - 爱眼到底是怎么回事",
+            "desc": "非常感谢明基官方包邮送测的EW2775ZH显示器",
+            "link": "https://zhuanlan.zhihu.com/p/45599809",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2018-09-29",
+            "cover": "./assets/content-image/entry-cover/v2-3a8ac780c52e689dad80340ee67330b4_1440w.jpg"
+        },
+        {
+            "title": "Colormunki Display校色仪简测",
+            "desc": "关注色彩管理、颜色校准等内容的知友应该都是从这一系列文章入门的",
+            "link": "https://zhuanlan.zhihu.com/p/32442203",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2017-12-28",
+            "cover": "./assets/content-image/entry-cover/v2-4aa1e0b49af8353d3a7b3dff441bfd6f_r.jpg"
+        },
+        {
+            "title": "Xperia XZ1c 屏幕专业评测",
+            "desc": "针对Xperia内置的“专业模式”、“标准模式”以及“超逼真模式”分别进行了测试",
+            "link": "https://zhuanlan.zhihu.com/p/34957412",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2018-03-26",
+            "cover": "./assets/content-image/entry-cover/v2-f750b3acf7a19ac1cfd11bbf4a13f419_720w.jpg"
+        },
+        {
+            "title": "iPad 2018 屏幕测试",
+            "desc": "即便是廉价的非全贴合，iPad 2018仍然拥有一块色彩极其准确的屏幕，无论和笔记本还是桌面显示器比较都属于顶级水平",
+            "link": "https://zhuanlan.zhihu.com/p/35317577",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2018-04-04",
+            "cover": "./assets/content-image/entry-cover/v2-270638f4147ef39f18a36cbc40498880_720w.jpg"
+        }
+    ]
+}

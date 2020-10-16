@@ -15,7 +15,7 @@
             "title":"家用万兆网络指南 α - 比网线还便宜的双口万兆网卡!",
             "desc":"25块, 搞定一张万兆网卡!",
             "link":"https://www.bilibili.com/video/BV1a7411Z7oD",
-            "author":"@AlphaArea",
+            "author":"@AlphaArea (awpak78)",
             "date":"2020-03-18",
             "cover":"./assets/content-image/entry-cover/20200923173659.png"
         },
@@ -58,6 +58,14 @@
             "author":"@Karminski-牙医",
             "date":"2019-07-18",
             "cover":"./assets/content-image/entry-cover/v2-e098c57b6f627358bae05ba37de5b00d_1440w.jpg"
+        },
+        {
+            "title": "家用万兆网络指南 0 - 如何在家庭布设万兆局域网？",
+            "desc": "三种简单方案的介绍.",
+            "link": "https://www.zhihu.com/question/39304529/answer/570797523",
+            "author": "@Karminski-牙医",
+            "date": "2019-07-27",
+            "cover": "./assets/content-image/entry-cover/v2-9161715d88b2013f6dabb41dd6ea00a5_r.jpg"
         }
     ]
 
