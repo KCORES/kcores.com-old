@@ -34,6 +34,7 @@ type Topic struct {
 	ToipcName       string  `json:"toipc"`
 	TopicIcon       string  `json:"topicIcon"`
 	TopicDesc       string  `json:"topicDesc"`
+	LongTopicDesc   string  `json:"longTopicDesc"`
 	EntryList       []Entry `json:"entryList"`
 	EntryCount      int     
 	ListPageId      string
@@ -120,7 +121,8 @@ func DumpTopic(Topic Topic) {
     fmt.Printf("Topic.ToipcName :	%s\n", Topic.ToipcName)
 	fmt.Printf("Topic.TopicIcon :	%s\n", Topic.TopicIcon)
 	fmt.Printf("Topic.TopicDesc :	%s\n", Topic.TopicDesc)
-	fmt.Printf("Topic.EntryCount :	%s\n", Topic.EntryCount)
+	fmt.Printf("Topic.LongTopicDesc :	%s\n", Topic.LongTopicDesc)
+	fmt.Printf("Topic.EntryCount :	%d\n", Topic.EntryCount)
 	fmt.Printf("Topic.ListPageId :	%s\n", Topic.ListPageId)
 	fmt.Printf("Topic.EntryList :\n")
 	for k, v := range Topic.EntryList {
@@ -210,6 +212,11 @@ func GenerateListPage(Topic Topic) {
 	var section2 string
 	var boxCounter int
 	boxCounter = 1
+	// check topic desc
+	topicDesc := Topic.TopicDesc
+	if len(Topic.LongTopicDesc) != 0 {
+		topicDesc = Topic.LongTopicDesc
+	}
 	// fill template
 	targetFile := LIST_PAGE_ADDR_PREFIX + Topic.ListPageId + LIST_PAGE_ADDR_SUFFIX
 	listPage += LIST_P1
@@ -231,7 +238,7 @@ func GenerateListPage(Topic Topic) {
 	listPage += fmt.Sprintf(LIST_P3, 
 		Topic.TopicIcon,
 		Topic.ToipcName,
-		Topic.TopicDesc)
+		topicDesc)
 	listPage += section2
 	listPage += LIST_P5
 	// write file

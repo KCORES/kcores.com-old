@@ -1,0 +1,24 @@
+{
+    "toipc": "白盒电源计划",
+    "topicIcon": "./assets/content-image/topic-icon/whitebox-power-poject.png",
+    "topicDesc": "了解电源, 让电源不再只是个存在于你机箱中的黑盒子",
+    "longTopicDesc": "了解电源, 让电源不再只是个存在于你机箱中的黑盒子",
+    "entryList": [
+        {
+            "title": "长城 吉祥系列 HP-280A ATX电源 详细拆解",
+            "desc": "该电源额定功率200W, 是在废品站20捡的.",
+            "link": "https://zhuanlan.zhihu.com/p/96404378",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2019-12-09",
+            "cover": "./assets/content-image/entry-cover/v2-e9af137ddb9196cdd307aa1bfc36ebb0_r.jpg"
+        },
+        {
+            "title": "拆一个航嘉冷静王钻石版2.31",
+            "desc": "我拆的这颗冷静王钻石版2.31的型号是HK400-53FP, 以前叫冷静王钻石2.31经典版",
+            "link": "https://zhuanlan.zhihu.com/p/44313266",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2018-09-11",
+            "cover": "./assets/content-image/entry-cover/v2-6843de48937295112831ccd6b6338e13_r.jpg"
+        }
+    ]
+}

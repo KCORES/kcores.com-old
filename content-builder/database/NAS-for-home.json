@@ -1,0 +1,32 @@
+{
+    "toipc": "家用 NAS 指南",
+    "topicIcon": "./assets/content-image/topic-icon/nas-for-home.png",
+    "topicDesc": "你的第一台 NAS 何必是 NAS, 老板! 来 100T 硬盘!",
+    "longTopicDesc": "你的第一台 NAS 何必是 NAS, 老板! 来 100T 硬盘!",
+    "entryList": [
+        {
+            "title": "家用 NAS 指南 2 - 搭建家庭 NAS 服务器有什么好方案？",
+            "desc": "树莓派4B能跑满千兆吗? 树莓派4B作为web服务器最大能达到多少QPS?",
+            "link": "https://zhuanlan.zhihu.com/p/84879836",
+            "author": "@Karminski-牙医",
+            "date": "2019-09-30",
+            "cover": "./assets/content-image/entry-cover/v2-3aa84c70ac31e91cdb2866419fe2f284_r.jpg"
+        },
+        {
+            "title": "家用 NAS 指南 1 - NAS 阵列与文件系统方案探讨",
+            "desc": "简单对比各种 NAS 方案的优劣",
+            "link": "https://zhuanlan.zhihu.com/p/48527909",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2018-11-04",
+            "cover": "./assets/content-image/entry-cover/v2-fede14aaf0311274e7f82e41891877a8_r.jpg"
+        },
+        {
+            "title": "家用 NAS 指南 0 - ZFS 软阵列 RAIDZ1 降级跑分与重建",
+            "desc": "这是\"用一块4TB硬盘的售价装（捡）一台4TB NAS计划\"的一部分, 不过NAS尚未完全体, 完成后会单独开一个贴.",
+            "link": "https://zhuanlan.zhihu.com/p/45799912",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2018-10-01",
+            "cover": "./assets/content-image/entry-cover/v2-6fec40260d6aad7ca828ed9cb90a7c26_r.jpg"
+        }
+    ]
+}
