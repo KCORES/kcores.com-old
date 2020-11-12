@@ -5,6 +5,22 @@
     "longTopicDesc": " 为大家带来最有趣的树莓派新玩法, 液冷树莓派! 树莓派集群! 树莓派原子钟! 你想不到的玩法应有尽有! 包教包会, 不满意报销网费! ",
     "entryList":[
         {
+            "title":"树莓派的 100 种玩法 3 - 树莓派 4 安装 ESXi",
+            "desc":"树莓派也能安装 ESXi ? 没错, VMWare 为了占领 Arm 市场, 搞了 ESXi-Arm. 本文就教大家如何在树莓派 4 上安装 ESXi.",
+            "link":"https://zhuanlan.zhihu.com/p/270495785",
+            "author":"@Karminski-牙医",
+            "date":"2020-10-31",
+            "cover":"./assets/content-image/entry-cover/v2-0b0fe58e1d5ba07d30d06fb03e114ab6_b.jpg"
+        },
+        {
+            "title":"树莓派的 100 种玩法 2 - 树莓派 4 更新 EEPROM",
+            "desc":"树莓派 4 自带了 EEPROM (4MBits/512KB) 用于启动系统. 安装比较新的系统或安装 ESXi 需要更新树莓派 4 的 EEPROM. 本文教大家如何更新树莓派4 的EEPROM.",
+            "link":"https://zhuanlan.zhihu.com/p/270478550",
+            "author":"@Karminski-牙医",
+            "date":"2020-10-31",
+            "cover":"./assets/content-image/entry-cover/v2-90060131655d51f75a9dfba2c5bcd164_b.jpg"
+        },
+        {
             "title":"树莓派的 100 种玩法 1 - 树莓派4 安装 Ubuntu Server",
             "desc":"本文介绍如何给树莓派 4B 安装 Ubuntu Server 20.04.1. 顺便, 本文还介绍了在树莓派没办法连接显示器和键盘的情况下, 如何确定树莓派的 IP 地址并登陆进去等一些实用小技巧. 聪明的你还可以用这些学到的新技巧去扫描你的网络, 发现未知.",
             "link":"https://zhuanlan.zhihu.com/p/266210499",
