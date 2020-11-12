@@ -5,6 +5,14 @@
     "longTopicDesc": "了解电源, 让电源不再只是个存在于你机箱中的黑盒子",
     "entryList": [
         {
+            "title": "软路由 NAS 低功耗电源方案怎么选",
+            "desc": "追求极致省电的软路由和小型NAS功耗通常不超过50W, 而常见的ATX电源在超低负载下效率并不好看, 怎样才能极限节能?",
+            "link": "https://www.bilibili.com/video/BV1pv411r77d",
+            "author": "@AlphaArea (awpak78)",
+            "date": "2020-11-12",
+            "cover": "./assets/content-image/entry-cover/low-cost-power-for-nas-and-router.png"
+        },
+        {
             "title": "长城 吉祥系列 HP-280A ATX电源 详细拆解",
             "desc": "该电源额定功率200W, 是在废品站20捡的.",
             "link": "https://zhuanlan.zhihu.com/p/96404378",
