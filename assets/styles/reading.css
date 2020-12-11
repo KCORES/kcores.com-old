@@ -14,6 +14,10 @@ body {
 .entry-image {
     border-radius: 1em;
     margin: 0 auto;
+    overflow: hidden;
+}
+.entry-image img {
+    width: 100%;
 }
 .entry-title {
     font-weight: 600;
@@ -27,11 +31,11 @@ body {
     font-size: 0.12rem;
     color: #909090;
 }
-.box1 {
+/* .box1 {
     height: 200px;
     background-image: url(assets/content-image/entry-cover/v2-1537af9fdff1ab90d4e5adf8f0d376f6_r.jpg);
-}
-.box2 {
+} */
+/* .box2 {
     height: 300px;
     background-color: blue;
 }
@@ -46,7 +50,7 @@ body {
 .box5 {
     height: 600px;
     background-color: yellow;
-}
+} */
 @media screen and (max-width: 600px) {
     .water-basic {
         box-sizing: border-box;
@@ -71,10 +75,10 @@ body {
 }
 
 .box1 {
-    height: 135px;
-    background-image: url(../content-image/entry-cover/low-cost-power-for-nas-and-router.png);
+    /* height: 135px; */
+    /* background-image: url(../content-image/entry-cover/low-cost-power-for-nas-and-router.png); */
 }
-
+/* 
 .box2 {
     height: 157px;
     background-image: url(../content-image/entry-cover/v2-0b0fe58e1d5ba07d30d06fb03e114ab6_b.jpg);
@@ -253,4 +257,4 @@ body {
 .box37 {
     height: 130px;
     background-image: url(../content-image/entry-cover/v2-4aa1e0b49af8353d3a7b3dff441bfd6f_r.jpg);
-}
+} */
