@@ -1,60 +1,65 @@
-
-
-#poster {
-  position:fixed;
- top: 0;
- left: 0;
- width:100%;
- height:100%;
- min-width: 1000px;
- z-index:-10;
- zoom: 1;
- background-size: cover;
--webkit-background-size: cover;
--o-background-size: cover;
-background-position: center 0;
-  background-image: url(../images/FlexibleLOM-Adapter-Card-2.jpg);
+body {
+    background-position: center center;
+    background-image: url(../images/FlexibleLOM-Adapter-Card-2.jpg);
+    background-size: cover;
 }
 
 #poster-text {
-  padding: 2em;
-  color: #f5f5f7;
-  font-size: 96px;
-  line-height: 1.04167;
-  font-weight: 600;
+    color: #f5f5f7;
+    height: calc(100vh - 0.4rem);
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1.4;
 }
-
-#poster-text h1 {
-  margin: 0 auto;
-}
-
 .title {
-  font-size: 46px;
-  line-height: 1.04167;
-  font-weight: 400;
+    font-size: 0.46rem;
+    margin-bottom: 0.3rem;
 }
 
 .sub-title {
-  font-size: 96px;
-  line-height: 1.04167;
-  font-weight: 600;
+    font-size: 0.96rem;
+}
+@media (max-width: 1000px) {
+    #poster-text {
+        padding: 0.2rem;
+    }
+}
+@media (max-width: 800px) {
+    #poster-text .title {
+        font-size: 0.26rem;
+        line-height: 1.4;
+    }
+    .sub-title {
+        font-size: 0.4rem;
+        line-height: 1.4;
+    }
+}
+
+#poster-text .title,
+#poster-text .sub-title {
+    flex-shrink: 0;
+    width: 100%;
 }
 
 #poster-text-highlight {
-  color: rgb(255,194,87);
+    color: rgb(255, 194, 87);
 }
 
 #entry {
-  margin: 20px 0 0 0;
+    margin: 0.2rem 0 0 0;
 }
 
 #other-entry {
-  background-color: rgb(255,255,255,0.7);
-  padding: 0.2em;
-  font-size: 2em;
-  font-weight: 600;
-  position:absolute;
-  bottom:1em;
-  right:0;
-} 
-
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 0.2rem;
+    font-size: 0.2rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0;
+}
