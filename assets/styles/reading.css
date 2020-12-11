@@ -1,5 +1,260 @@
-/* reading.css */
-
 body {
-    /*background-color: #FFF;*/
+    /* background-color: #fff; */
 }
+
+.water-basic {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0.3rem;
+}
+.item {
+    width: 240px;
+    transition: 0.3s linear;
+}
+.entry-image {
+    border-radius: 1em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.entry-image img {
+    width: 100%;
+}
+.entry-title {
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 0.14rem;
+    margin-top: 0.1rem;
+}
+.entry-info {
+    margin-top: 0.1rem;
+    font-weight: 400;
+    font-size: 0.12rem;
+    color: #909090;
+}
+/* .box1 {
+    height: 200px;
+    background-image: url(assets/content-image/entry-cover/v2-1537af9fdff1ab90d4e5adf8f0d376f6_r.jpg);
+} */
+/* .box2 {
+    height: 300px;
+    background-color: blue;
+}
+.box3 {
+    height: 200px;
+    background-color: gray;
+}
+.box4 {
+    height: 700px;
+    background-color: pink;
+}
+.box5 {
+    height: 600px;
+    background-color: yellow;
+} */
+@media screen and (max-width: 600px) {
+    .water-basic {
+        box-sizing: border-box;
+        width: 100% !important;
+        margin-top: 0.3rem;
+    }
+    .item {
+        width: 100%;
+        flex-grow: 1;
+        flex-shrink: 0;
+        left: 0;
+        top: 0;
+        padding: 0 0.3rem 0.3rem;
+        box-sizing: border-box;
+        left: -12px;
+    }
+    .entry-image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.box1 {
+    /* height: 135px; */
+    /* background-image: url(../content-image/entry-cover/low-cost-power-for-nas-and-router.png); */
+}
+/* 
+.box2 {
+    height: 157px;
+    background-image: url(../content-image/entry-cover/v2-0b0fe58e1d5ba07d30d06fb03e114ab6_b.jpg);
+}
+
+.box3 {
+    height: 157px;
+    background-image: url(../content-image/entry-cover/v2-90060131655d51f75a9dfba2c5bcd164_b.jpg);
+}
+
+.box4 {
+    height: 315px;
+    background-image: url(../content-image/entry-cover/raspberry-pi-4-install-ubuntu-server.jpg);
+}
+
+.box5 {
+    height: 250px;
+    background-image: url(../content-image/entry-cover/v2-299b32cd67e2b4c62881268882c6215c_r.jpg);
+}
+
+.box6 {
+    height: 199px;
+    background-image: url(../content-image/entry-cover/v2-5008c412be880658164ea73d22164f6a_1440w.jpg);
+}
+
+.box7 {
+    height: 192px;
+    background-image: url(../content-image/entry-cover/20200923173659.png);
+}
+
+.box8 {
+    height: 170px;
+    background-image: url(../content-image/entry-cover/v2-5c391aa9e7c4770adc9aec1c85099ae7_r.jpg);
+}
+
+.box9 {
+    height: 302px;
+    background-image: url(../content-image/entry-cover/20200923180206.png);
+}
+
+.box10 {
+    height: 273px;
+    background-image: url(../content-image/entry-cover/v2-8af320985a271d1da2338a4e2b5bfaaa_r.jpg);
+}
+
+.box11 {
+    height: 388px;
+    background-image: url(../content-image/entry-cover/v2-da471672f293c767388492092356a92c_r.jpg);
+}
+
+.box12 {
+    height: 236px;
+    background-image: url(../content-image/entry-cover/v2-e9af137ddb9196cdd307aa1bfc36ebb0_r.jpg);
+}
+
+.box13 {
+    height: 406px;
+    background-image: url(../content-image/entry-cover/v2-e02eefac503ca5f2db3169b858018c21_r.jpg);
+}
+
+.box14 {
+    height: 375px;
+    background-image: url(../content-image/entry-cover/v2-b398ce47c293ef172aefaf3287d0d385_r.jpg);
+}
+
+.box15 {
+    height: 157px;
+    background-image: url(../content-image/entry-cover/v2-1537af9fdff1ab90d4e5adf8f0d376f6_r.jpg);
+}
+
+.box16 {
+    height: 293px;
+    background-image: url(../content-image/entry-cover/v2-2a3e9b139b7b2262dd36314baf3b34a4_r.jpg);
+}
+
+.box17 {
+    height: 311px;
+    background-image: url(../content-image/entry-cover/v2-1cdf4833e26021970ad8cd3c32f46670_r.jpg);
+}
+
+.box18 {
+    height: 443px;
+    background-image: url(../content-image/entry-cover/v2-9161715d88b2013f6dabb41dd6ea00a5_r.jpg);
+}
+
+.box19 {
+    height: 425px;
+    background-image: url(../content-image/entry-cover/v2-e098c57b6f627358bae05ba37de5b00d_1440w.jpg);
+}
+
+.box20 {
+    height: 458px;
+    background-image: url(../content-image/entry-cover/v2-3aa84c70ac31e91cdb2866419fe2f284_r.jpg);
+}
+
+.box21 {
+    height: 349px;
+    background-image: url(../content-image/entry-cover/v2-787f5bb1f9aa6971faf48240d65f88c3_1440w.jpg);
+}
+
+.box22 {
+    height: 278px;
+    background-image: url(../content-image/entry-cover/v2-c64408c2176d7d38ec429aa31c2e835e_1440w.jpg);
+}
+
+.box23 {
+    height: 151px;
+    background-image: url(../content-image/entry-cover/20200923182245.png);
+}
+
+.box24 {
+    height: 248px;
+    background-image: url(../content-image/entry-cover/20200923182634.png);
+}
+
+.box25 {
+    height: 220px;
+    background-image: url(../content-image/entry-cover/20200923182531.png);
+}
+
+.box26 {
+    height: 177px;
+    background-image: url(../content-image/entry-cover/v2-598f613c1346ee1388d5a0b302f70dda_1440w.jpg);
+}
+
+.box27 {
+    height: 106px;
+    background-image: url(../content-image/entry-cover/v2-fede14aaf0311274e7f82e41891877a8_r.jpg);
+}
+
+.box28 {
+    height: 177px;
+    background-image: url(../content-image/entry-cover/v2-6fec40260d6aad7ca828ed9cb90a7c26_r.jpg);
+}
+
+.box29 {
+    height: 213px;
+    background-image: url(../content-image/entry-cover/v2-3a8ac780c52e689dad80340ee67330b4_1440w.jpg);
+}
+
+.box30 {
+    height: 337px;
+    background-image: url(../content-image/entry-cover/v2-6843de48937295112831ccd6b6338e13_r.jpg);
+}
+
+.box31 {
+    height: 133px;
+    background-image: url(../content-image/entry-cover/v2-8a1fcb9e27982e4a9c9413e30e84ce00_720w.jpg);
+}
+
+.box32 {
+    height: 113px;
+    background-image: url(../content-image/entry-cover/v2-74550dab3c9445f52d97ac1ab19115bf_r.jpg);
+}
+
+.box33 {
+    height: 251px;
+    background-image: url(../content-image/entry-cover/v2-270638f4147ef39f18a36cbc40498880_720w.jpg);
+}
+
+.box34 {
+    height: 251px;
+    background-image: url(../content-image/entry-cover/v2-f750b3acf7a19ac1cfd11bbf4a13f419_720w.jpg);
+}
+
+.box35 {
+    height: 178px;
+    background-image: url(../content-image/entry-cover/dispaly-latency.png);
+}
+
+.box36 {
+    height: 125px;
+    background-image: url(../content-image/entry-cover/960fps-pwm-test.png);
+}
+
+.box37 {
+    height: 130px;
+    background-image: url(../content-image/entry-cover/v2-4aa1e0b49af8353d3a7b3dff441bfd6f_r.jpg);
+} */
