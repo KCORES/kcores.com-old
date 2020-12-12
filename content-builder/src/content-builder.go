@@ -173,7 +173,6 @@ func GenerateReadingPage(AllEntrys AllEntrys) {
 	fmt.Printf("GenerateReadingPage Start.\n")
 	var readingPage string
 	var section1 string
-	var section2 string
 	var boxCounter int
 	boxCounter = 1
 	// sory all entry
@@ -184,12 +183,10 @@ func GenerateReadingPage(AllEntrys AllEntrys) {
 	readingPage += READING_P1
 	for _, entry := range AllEntrys {
 		_, imgHeight := getImageDimension(REPO_DIR + entry.Cover)
+		fmt.Printf("Now image height: %dpx.\n", imgHeight)
 		section1 += fmt.Sprintf(READING_P2, 
 			boxCounter,
-			imgHeight,
-			entry.Cover)
-		section2 += fmt.Sprintf(READING_P4,
-			boxCounter,
+			entry.Cover,
 			entry.Link,
 			entry.Title,
 			entry.Author,
@@ -198,8 +195,6 @@ func GenerateReadingPage(AllEntrys AllEntrys) {
 	}
 	readingPage += section1
 	readingPage += READING_P3
-	readingPage += section2
-	readingPage += READING_P5
 	// write file
 	if _, err := os.Stat(READING_PAGE_FILE_NAME); os.IsNotExist(err) {
 		os.Create(READING_PAGE_FILE_NAME)
@@ -221,7 +216,6 @@ func GenerateListPage(Topic Topic) {
 	fmt.Printf("GenerateListPage Start.\n")
 	var listPage string
 	var section1 string
-	var section2 string
 	var boxCounter int
 	boxCounter = 1
 	// check topic desc
@@ -234,25 +228,22 @@ func GenerateListPage(Topic Topic) {
 	listPage += LIST_P1
 	for _, entry := range Topic.EntryList {
 		_, imgHeight := getImageDimension(REPO_DIR + entry.Cover)
-		section1 += fmt.Sprintf(READING_P2, 
+		fmt.Printf("Now image height: %dpx.\n", imgHeight)
+		section1 += fmt.Sprintf(LIST_P3, 
 			boxCounter,
-			imgHeight,
-			entry.Cover)
-		section2 += fmt.Sprintf(READING_P4,
-			boxCounter,
+			entry.Cover,
 			entry.Link,
 			entry.Title,
 			entry.Author,
 			entry.Date)
 		boxCounter ++
 	}
-	listPage += section1
-	listPage += fmt.Sprintf(LIST_P3, 
+	listPage += fmt.Sprintf(LIST_P2, 
 		Topic.TopicIcon,
 		Topic.ToipcName,
 		topicDesc)
-	listPage += section2
-	listPage += LIST_P5
+	listPage += section1
+	listPage += LIST_P4
 	// write file
 	if _, err := os.Stat(targetFile); os.IsNotExist(err) {
 		os.Create(targetFile)
