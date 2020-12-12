@@ -89,12 +89,17 @@ const LIST_P3 = `
 const LIST_P4 = `
     </div>
 
-    <script>
+  <!-- load js -->
+
+  <script>
 
     (function () {
       var imgLoad = imagesLoaded('.water-basic', function () {
       })
-      imgLoad.on('progress', function () {
+      imgLoad.on('progress', function (instance, image) {
+        console.log('image: ', image);
+        image.img.style.minHeight='auto'
+        console.log('instance: ', instance);
         var grid;
         function init() {
           grid = new Minigrid({
@@ -109,7 +114,10 @@ const LIST_P4 = `
         }
         // mount
         function update() {
-          grid.mount();
+          setTimeout(function () {
+            grid.mount();
+
+          }, 100)
         }
         init()
         window.addEventListener('resize', update);

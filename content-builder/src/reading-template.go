@@ -86,7 +86,10 @@ const READING_P3 = `
     (function () {
       var imgLoad = imagesLoaded('.water-basic', function () {
       })
-      imgLoad.on('progress', function () {
+      imgLoad.on('progress', function (instance, image) {
+        console.log('image: ', image);
+        image.img.style.minHeight='auto'
+        console.log('instance: ', instance);
         var grid;
         function init() {
           grid = new Minigrid({
@@ -101,7 +104,10 @@ const READING_P3 = `
         }
         // mount
         function update() {
-          grid.mount();
+          setTimeout(function () {
+            grid.mount();
+
+          }, 100)
         }
         init()
         window.addEventListener('resize', update);
@@ -112,4 +118,5 @@ const READING_P3 = `
 </body>
 
 </html>
+
 `
