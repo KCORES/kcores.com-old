@@ -27,6 +27,8 @@ const LIST_P1 = `<!DOCTYPE html>
   <link rel="stylesheet" type="text/css" href="assets/styles/base.css">
   <link rel="stylesheet" type="text/css" href="assets/styles/list.css">
   <script src="assets/js/minigrid.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
 </head>
 
 <body>
@@ -88,7 +90,11 @@ const LIST_P4 = `
     </div>
 
     <script>
-      (function () {
+
+    (function () {
+      var imgLoad = imagesLoaded('.water-basic', function () {
+      })
+      imgLoad.on('progress', function () {
         var grid;
         function init() {
           grid = new Minigrid({
@@ -105,11 +111,12 @@ const LIST_P4 = `
         function update() {
           grid.mount();
         }
-        document.addEventListener('DOMContentLoaded', init);
+        init()
         window.addEventListener('resize', update);
-      })();
-    </script>
+      })
+    })()
 
+  </script>
 </body>
 
 </html>
