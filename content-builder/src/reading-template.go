@@ -27,6 +27,8 @@ const READING_P1 = `<!DOCTYPE html>
   <link rel="stylesheet" type="text/css" href="assets/styles/base.css">
   <link rel="stylesheet" type="text/css" href="assets/styles/reading.css">
   <script src="assets/js/minigrid.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  
 
 </head>
 
@@ -80,26 +82,32 @@ const READING_P3 = `
   <!-- load js -->
 
   <script>
+
     (function () {
-      var grid;
-      function init() {
-        grid = new Minigrid({
-          container: '.water-basic',
-          item: '.item',
-          gutter: 12,
-          animate: function () {
-            console.log(222)
-          }
-        });
-        grid.mount();
-      }
-      // mount
-      function update() {
-        grid.mount();
-      }
-      document.addEventListener('DOMContentLoaded', init);
-      window.addEventListener('resize', update);
-    })();
+      var imgLoad = imagesLoaded('.water-basic', function () {
+      })
+      imgLoad.on('progress', function () {
+        var grid;
+        function init() {
+          grid = new Minigrid({
+            container: '.water-basic',
+            item: '.item',
+            gutter: 12,
+            animate: function () {
+              console.log(222)
+            }
+          });
+          grid.mount();
+        }
+        // mount
+        function update() {
+          grid.mount();
+        }
+        init()
+        window.addEventListener('resize', update);
+      })
+    })()
+
   </script>
 </body>
 
