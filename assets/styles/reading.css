@@ -1,7 +1,3 @@
-body {
-    /* background-color: #fff; */
-}
-
 .water-basic {
     text-align: center;
     margin: 0 auto;
@@ -17,9 +13,11 @@ body {
     margin: 0 auto;
     overflow: hidden;
     min-height: 1rem;
+    background-color: #ebebeb;
 }
 .entry-image img {
     width: 100%;
+    min-height: 2rem;
     display: block;
 }
 .entry-title {
