@@ -8,16 +8,19 @@ body {
     padding-top: 0.3rem;
 }
 .item {
-    width: 240px;
+    position: absolute;
+    width: 2.40rem;
     transition: 0.3s linear;
 }
 .entry-image {
     border-radius: 1em;
     margin: 0 auto;
     overflow: hidden;
+    min-height: 1rem;
 }
 .entry-image img {
     width: 100%;
+    display: block;
 }
 .entry-title {
     font-weight: 600;
