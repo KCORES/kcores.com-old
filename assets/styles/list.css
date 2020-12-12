@@ -66,18 +66,24 @@ body {
 .water-basic {
     text-align: center;
     margin: 0 auto;
+    padding-top: 0.3rem;
 }
 .item {
-    width: 240px;
+    position: absolute;
+    width: 2.40rem;
     transition: 0.3s linear;
 }
 .entry-image {
     border-radius: 1em;
     margin: 0 auto;
     overflow: hidden;
+    min-height: 1rem;
+    background-color: #ebebeb;
 }
 .entry-image img {
     width: 100%;
+    min-height: 2rem;
+    display: block;
 }
 .entry-title {
     font-weight: 600;
@@ -115,6 +121,7 @@ body {
     .water-basic {
         box-sizing: border-box;
         width: 100% !important;
+        margin-top: 0.3rem;
     }
     .item {
         width: 100%;
@@ -122,9 +129,14 @@ body {
         flex-shrink: 0;
         left: 0;
         top: 0;
-        padding: 0.1rem 0.3rem;
+        padding: 0 0.3rem 0.3rem;
         box-sizing: border-box;
         left: -12px;
+    }
+    .entry-image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     #masthead-content {
         width: 100%;
