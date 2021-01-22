@@ -39,15 +39,9 @@ const LIST_P1 = `<!DOCTYPE html>
     <header>
       <div class="inner ">
         <nav class="left">
-          <a href="https://kcores.com/" class="logo">
-            <h1>KCORES 氪金核心</h1>
-          </a>
-          <a href="https://kcores.com/reading" class="nav-button">
-            <h1>阅读</h1>
-          </a>
-          <a href="https://kcores.com/topics" class="nav-button">
-            <h1>话题</h1>
-          </a>
+          <a href="https://kcores.com/" class="logo"><h1>KCORES 氪金核心</h1></a>
+          <a href="https://kcores.com/reading" class="nav-button"><h1>阅读</h1></a>
+          <a href="https://kcores.com/topics" class="nav-button"><h1>话题</h1></a>
         </nav>
         <nav class="right">
           <a href="https://kcores.com/about">关于</a>

@@ -72,19 +72,20 @@ header .logo {
     vertical-align: middle;
     color: inherit;
     padding: 0 1em 0 0;
+    font-size: 0.21rem;
+    font-weight: 600;
 }
 .left {
     display: flex;
     align-items: baseline;
 }
+
+
 header h1 {
     font-size: 0.14rem;
     font-weight: normal;
 }
-header .logo h1 {
-    font-size: 0.21rem;
-    font-weight: 600;
-}
+
 header nav a {
     color: #000;
 }
@@ -99,6 +100,10 @@ nav a {
 
 nav a:hover {
     opacity: 0.7;
+}
+
+.nav-now {
+    background: rgba(18, 18, 18, 0.1);
 }
 
 @media screen and (max-width: 1000px) {
@@ -128,3 +133,4 @@ nav a:hover {
         font-size: 0.14rem;
     }
 }
+
