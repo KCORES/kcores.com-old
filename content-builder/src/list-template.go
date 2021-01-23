@@ -27,7 +27,7 @@ const LIST_P1 = `<!DOCTYPE html>
   <link rel="stylesheet" type="text/css" href="assets/styles/base.css">
   <link rel="stylesheet" type="text/css" href="assets/styles/list.css">
   <script src="assets/js/minigrid.js"></script>
-  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/js/imagesloaded.pkgd.min.js"></script>
 
 </head>
 

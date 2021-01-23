@@ -5,6 +5,14 @@
     "longTopicDesc": " 为大家带来最有趣的树莓派新玩法, 液冷树莓派! 树莓派集群! 树莓派原子钟! 你想不到的玩法应有尽有! 包教包会, 不满意报销网费! ",
     "entryList":[
         {
+            "title":"树莓派的 100 种玩法 4 - 树莓派竟然出微控制器了! Pi Pico",
+            "desc":"树莓派搞了个大新闻, RP2040 微控制器和 Pi Pico 开发板. 没错, 这是树莓派的第一款微控制器开发板, 也是树莓派第一款自主设计的 IC.",
+            "link":"https://zhuanlan.zhihu.com/p/346118448",
+            "author":"@Karminski-牙医",
+            "date":"2021-01-22",
+            "cover":"./assets/content-image/entry-cover/v2-54c7d976f21dcd837108042dd7a95878_r.jpg"
+        },
+        {
             "title":"树莓派的 100 种玩法 3 - 树莓派 4 安装 ESXi",
             "desc":"树莓派也能安装 ESXi ? 没错, VMWare 为了占领 Arm 市场, 搞了 ESXi-Arm. 本文就教大家如何在树莓派 4 上安装 ESXi.",
             "link":"https://zhuanlan.zhihu.com/p/270495785",
