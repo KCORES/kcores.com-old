@@ -3,6 +3,14 @@
     "topicIcon": "./assets/content-image/topic-icon/10gbps-network-for-home.png", 
     "topicDesc": "从 0 组建家用千兆, 万兆, 100G 网络",
     "entryList":[
+         {
+            "title":"家用万兆网络指南 7 - 功耗9瓦万兆交换机?",
+            "desc":"MikroTik 新出了个 8 口 1G, 2 口 10G 的新交换机 CSS610-8G-2S+IN.",
+            "link":"https://zhuanlan.zhihu.com/p/345291283",
+            "author":"@Karminski-牙医",
+            "date":"2021-01-19",
+            "cover":"./assets/content-image/entry-cover/v2-ad70b3f616148fe619669e7f49bda5b8_r.jpg"  
+        },
         {
             "title":"家用万兆网络指南 6 - 比网线还便宜的双口万兆网卡! 如何给 Mellanox 网卡刷固件或备份固件",
             "desc":"接上篇, 如何给 OCP 卡刷固件. 本文同样适用于其他 Mellanox 网卡",

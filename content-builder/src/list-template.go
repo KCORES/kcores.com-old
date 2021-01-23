@@ -27,7 +27,7 @@ const LIST_P1 = `<!DOCTYPE html>
   <link rel="stylesheet" type="text/css" href="assets/styles/base.css">
   <link rel="stylesheet" type="text/css" href="assets/styles/list.css">
   <script src="assets/js/minigrid.js"></script>
-  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/js/imagesloaded.pkgd.min.js"></script>
 
 </head>
 
@@ -39,15 +39,9 @@ const LIST_P1 = `<!DOCTYPE html>
     <header>
       <div class="inner ">
         <nav class="left">
-          <a href="https://kcores.com/" class="logo">
-            <h1>KCORES 氪金核心</h1>
-          </a>
-          <a href="https://kcores.com/reading" class="nav-button">
-            <h1>阅读</h1>
-          </a>
-          <a href="https://kcores.com/topics" class="nav-button">
-            <h1>话题</h1>
-          </a>
+          <a href="https://kcores.com/" class="logo"><h1>KCORES 氪金核心</h1></a>
+          <a href="https://kcores.com/reading" class="nav-button"><h1>阅读</h1></a>
+          <a href="https://kcores.com/topics" class="nav-button"><h1>话题</h1></a>
         </nav>
         <nav class="right">
           <a href="https://kcores.com/about">关于</a>

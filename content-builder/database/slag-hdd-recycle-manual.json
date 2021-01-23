@@ -1,0 +1,23 @@
+{
+    "toipc": "硬盘矿渣回收手册",
+    "topicIcon": "./assets/content-image/topic-icon/slag-hdd.png", 
+    "topicDesc": "矿渣里真的能挖出宝贝来吗?",
+    "entryList":[
+        {
+            "title":"硬盘矿难垃圾佬指南 之 矿渣硬盘指南",
+            "desc":"硬盘矿矿难嘛，最多的当然是硬盘了",
+            "link":"https://zhuanlan.zhihu.com/p/344801615",
+            "author":"@AlphaArea (awpak78)",
+            "date":"2021-01-16",
+            "cover":"./assets/content-image/entry-cover/v2-ecf42ad0a8bd4adf0739d7603a7f3174_1440w.jpg"
+        },
+        {
+            "title":"硬盘矿难垃圾佬指南 之 华为2U服务器",
+            "desc":"与以往挖矿热带着山寨币一起起飞不同，这次矿潮明显后劲不足，热钱全跑去炒热门反而把小山寨币跌死了，作为垃圾佬当然要上喜闻乐见的矿车了。",
+            "link":"https://zhuanlan.zhihu.com/p/341220561",
+            "author":"@AlphaArea (awpak78)",
+            "date":"2021-01-07",
+            "cover":"./assets/content-image/entry-cover/v2-3132358bcc9dc228753841a6376086a4_1440w.jpg"
+        }
+    ]
+}
