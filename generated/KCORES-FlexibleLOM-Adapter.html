@@ -1,0 +1,196 @@
+<!DOCTYPE html><html><head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180293201-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-180293201-1');
+  </script>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>README</title>
+  <meta identifier="00001">
+  <link rel="shortcut icon" href="assets/logo/kcores-logo.ico">
+  <meta name="keywords" content=" KCORES, &#x6C2A;&#x91D1;&#x6838;&#x5FC3;, &#x6D88;&#x8D39;&#x7535;&#x5B50;, &#x4E07;&#x5146;&#x7F51;&#x7EDC;, &#x5BB6;&#x7528;NAS, &#x5783;&#x573E;&#x4F6C;, &#x670D;&#x52A1;&#x5668;, &#x4E91;&#x670D;&#x52A1;&#x53CA;&#x4E3B;&#x673A;, &#x4EEA;&#x8868;, Homelab, Vintage">
+  <meta name="description" content="KCORES - &#x6C2A;&#x91D1;&#x6838;&#x5FC3;. &#x4E00;&#x4E2A;&#x5947;&#x7279;&#x7684;&#x7535;&#x5B50;&#x4EA7;&#x54C1;&#x7231;&#x597D;&#x8005;&#x7F51;&#x7AD9;. &#x8BE5;&#x9879;&#x76EE;&#x7531; @karminski-&#x7259;&#x533B; &#x53D1;&#x8D77;, &#x76EE;&#x7684;&#x662F;&#x5EFA;&#x7ACB;&#x4E00;&#x4E2A;&#x5927;&#x5BB6;&#x80FD;&#x8F7B;&#x677E;&#x8BA8;&#x8BBA;&#x6CDB;&#x8BA1;&#x7B97;&#x673A;&#x8BDD;&#x9898;&#x7684;&#x73AF;&#x5883;.">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <!-- include scripts & styles -->
+  <link rel="stylesheet" type="text/css" href="assets/styles/rem.css">
+  <link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/styles/base.css">
+  <link rel="stylesheet" type="text/css" href="assets/styles/list.css">
+  <link rel="stylesheet" type="text/css" href="assets/styles/markdown-content.css">
+  <script src="assets/js/minigrid.js"></script>
+  <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+
+      
+
+      
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css">
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+
+     
+    </head>
+    <body for="html-export">
+<div id="main">
+
+<!-- Herader -->
+<header>
+  <div class="inner ">
+    <nav class="left">
+      <a href="https://kcores.com/" class="logo"><h1>KCORES &#x6C2A;&#x91D1;&#x6838;&#x5FC3;</h1></a>
+      <a href="https://kcores.com/reading" class="nav-button"><h1>&#x9605;&#x8BFB;</h1></a>
+      <a href="https://kcores.com/topics" class="nav-button"><h1>&#x8BDD;&#x9898;</h1></a>
+      <a href="https://kcores.com/opensource" class="nav-button"><h1>&#x5F00;&#x6E90;&#x786C;&#x4EF6;</h1></a>
+    </nav>
+    <nav class="right">
+      <a href="https://kcores.com/about">&#x5173;&#x4E8E;</a>
+      <a href="https://kcores.com/blogroll">&#x53CB;&#x60C5;&#x94FE;&#x63A5;</a>
+      <a target="_blank" href="https://github.com/KCORES">Github</a>
+    </nav>
+  </div>
+</header>
+</div>
+
+      <div class="markdown-content mume markdown-preview  ">
+      <h1 class="mume-header" id="kcores-flexiblelom-adapter">KCORES-FlexibleLOM-Adapter</h1>
+
+<p>KCORES FlexibleLOM &#x8F6C; PCIe x8 &#x8F6C;&#x63A5;&#x5361;&#x5F00;&#x6E90;&#x8BBE;&#x8BA1;, &#x53EF;&#x4EE5;&#x8BA9;&#x666E;&#x901A;&#x7535;&#x8111;&#x4E3B;&#x677F;&#x7684; PCIe &#x69FD;&#x4F7F;&#x7528; FLR &#x7CFB;&#x5217;&#x7F51;&#x5361;, &#x5305;&#x62EC;&#x5E38;&#x89C1;&#x7684;&#x5343;&#x5146;&#x3001;&#x4E07;&#x5146;&#x3001;40G&#x7F51;&#x5361;. &#x7531;&#x4E8E;&#x5C3A;&#x5BF8;&#x9650;&#x5236;, &#x53EA;&#x63D0;&#x4F9B;&#x5168;&#x9AD8;&#x6321;&#x677F;&#x8BBE;&#x8BA1;.<br>
+KCORES FlexibleLOM to PCIe x8 adapter and baffle model. The FLR series network cards can be used on normal motherboards PCIe slots, including common Gigabit, 10G, and 40G network cards. Due to size limitations, only full-height baffle design is available.</p>
+<ul>
+<li>
+<p>2 Layers PCB design, Easy to make<br>
+&#x53CC;&#x5C42;PCB&#x8BBE;&#x8BA1;, &#x5BB9;&#x6613;&#x5236;&#x9020;</p>
+</li>
+<li>
+<p>Impedance matching by Polar SI9000<br>
+&#x4F7F;&#x7528; Polar SI9000 &#x8BA1;&#x7B97;&#x963B;&#x6297;</p>
+</li>
+<li>
+<p>Size less than 10x10cm<br>
+&#x5C0F;&#x5C3A;&#x5BF8;, &#x4E0D;&#x8D85;&#x8FC7; 10x10cm</p>
+</li>
+</ul>
+<p><img src="database/opensource/repo/KCORES-FlexibleLOM-Adapter/assets/images/FlexibleLOM-Adapter-Card-Top-View.png" alt="FlexibleLOM-Adapter-Card-Top-View"></p>
+<h1 class="mume-header" id="link-%E9%93%BE%E6%8E%A5">Link (&#x94FE;&#x63A5;)</h1>
+
+<p><a href="https://github.com/KCORES/KCORES-FlexibleLOM-Adapter">https://github.com/KCORES/KCORES-FlexibleLOM-Adapter</a></p>
+<h1 class="mume-header" id="compatibility">Compatibility</h1>
+
+<ul>
+<li>&#x2714; Recommend &#x63A8;&#x8350;</li>
+<li>&#x1F7E1; Compatible &#x517C;&#x5BB9;</li>
+<li>&#x274C; Fail &#x4E0D;&#x517C;&#x5BB9;</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>FlexibleLOM</th>
+<th>NIC Model</th>
+<th>Connectors</th>
+<th style="text-align:center"><a href="https://github.com/KCORES/KCORES-FlexibleLOM-Adapter/releases/tag/v1.0">v1.0</a></th>
+<th style="text-align:center">v1.1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>331FLR</td>
+<td>Broadcom BCM5719</td>
+<td>Quad RJ45 GbE</td>
+<td style="text-align:center">&#x274C;</td>
+<td style="text-align:center">&#x2714;</td>
+</tr>
+<tr>
+<td>366FLR</td>
+<td>intel i350</td>
+<td>Quad RJ45 GbE</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">&#x2714;</td>
+</tr>
+<tr>
+<td>CX3 ALOM</td>
+<td>Mellanox ConnectX-3</td>
+<td>Single SFP+ 10GbE</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">&#x2714;</td>
+</tr>
+<tr>
+<td>530FLR-SFP+</td>
+<td>Broadcom BCM57810S</td>
+<td>Dual SFP+ 10GbE</td>
+<td style="text-align:center">&#x274C;</td>
+<td style="text-align:center">&#x2714;</td>
+</tr>
+<tr>
+<td>544FLR-QSFP</td>
+<td>Mellanox ConnectX-3</td>
+<td>Dual QSFP+ 40GbE</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">&#x2714;</td>
+</tr>
+<tr>
+<td>544+FLR-QSFP</td>
+<td>Mellanox ConnectX-3 Pro</td>
+<td>Dual QSFP+ 40GbE</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">&#x2714;</td>
+</tr>
+<tr>
+<td>560FLR-SFP+</td>
+<td>intel 82599</td>
+<td>Dual SFP+ 10GbE</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">&#x2714;</td>
+</tr>
+<tr>
+<td>561FLR-T</td>
+<td>intel X540</td>
+<td>Dual RJ45 10GbE</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">&#x2714;</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Note:</strong><br>
+Some models of 544FLR-QSFP only support 10GbE and QDR. Please check the <strong>Part Number</strong> before buying!<br>
+544FLR-QSFP &#x90E8;&#x5206;&#x578B;&#x53F7;&#x53EA;&#x652F;&#x6301; 10GbE &#x548C; QDR, &#x8BF7;&#x5728;&#x8D2D;&#x4E70;&#x524D;&#x68C0;&#x67E5;<strong>&#x7269;&#x6599;&#x53F7;</strong>&#xFF01;</li>
+</ul>
+<h1 class="mume-header" id="photos-renderings">Photos &amp; Renderings</h1>
+
+<p><img src="database/opensource/repo/KCORES-FlexibleLOM-Adapter/assets/images/FlexibleLOM-Adapter-Card-Top-View.png" alt="FlexibleLOM-Adapter-Card-Top-View.png"></p>
+<p><img src="database/opensource/repo/KCORES-FlexibleLOM-Adapter/assets/images/FlexibleLOM-Adapter-CardTop-View.png" alt="FlexibleLOM-Adapter-CardTop-View.png"></p>
+<p><img src="database/opensource/repo/KCORES-FlexibleLOM-Adapter/assets/images/FlexibleLOM-Card-With-Adapter-Card-in-Machine.png" alt="FlexibleLOM-Card-With-Adapter-Card-in-Machine.png"></p>
+<p><img src="database/opensource/repo/KCORES-FlexibleLOM-Adapter/assets/images/FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png" alt="FlexibleLOM-Card-With-Adapter-Card-in-Machine-Backside-View.png"></p>
+<p><img src="database/opensource/repo/KCORES-FlexibleLOM-Adapter/assets/images/Rendering-V1.0.png" alt="FlexibleLOM-Card-With-Adapter-Card-Renderings"></p>
+<h1 class="mume-header" id="thanks-to">Thanks To</h1>
+
+<ul>
+<li><a href="https://github.com/Wangrb">@Wangrb (Original Adapter Card Design)</a></li>
+<li><a href="https://github.com/alphaarea">@AlphaArea (Main Contributer)</a></li>
+<li><a href="https://github.com/MistyMoonR">@MistyMoonR (3D Model)</a></li>
+<li><a href="https://github.com/karminski">@Karminski (Photo)</a></li>
+</ul>
+
+      </div>
+
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
