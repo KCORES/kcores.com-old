@@ -1,0 +1,24 @@
+{
+    "toipc": "KCORES 开源项目",
+    "topicIcon": "./assets/content-image/topic-icon/kcores-open-source-logo.png",
+    "topicDesc": "KCORES 开源硬件项目, 为广大硬件爱好者提供更多的选择",
+    "longTopicDesc": "KCORES 开源硬件项目, 为广大硬件爱好者提供更多的选择",
+    "entryList": [
+        {
+            "title": "KCORES-FlexibleLOM-Adapter - FlexibleLOM 转 PCIe x8 转接卡开源设计方案",
+            "desc": "KCORES FlexibleLOM 转 PCIe x8 转接卡开源设计, 可以让普通电脑主板的 PCIe 槽使用 FLR 系列网卡, 包括常见的千兆、万兆、40G网卡.",
+            "link": "./KCORES-FlexibleLOM-Adapter.html",
+            "author": "@Wangrb / @AlphaArea",
+            "date": "2020-10-05",
+            "cover": "./database/opensource/repo/KCORES-FlexibleLOM-Adapter/assets/images/FlexibleLOM-Adapter-cover.jpg"
+        },
+        {
+            "title": "OCP2PCIe - OCP 夹层卡转 PCIe x8 转接卡开源设计方案",
+            "desc": "OCP (开放计算项目) 夹层网卡转标准 PCIe 槽转接卡设计方案, 该项目可以将 OCP 夹层卡转接为标准 PCIe 卡方式供普通电脑使用.",
+            "link": "./OCP2PCIe.html",
+            "author": "@AlphaArea / @Richard-Tung",
+            "date": "2020-03-16",
+            "cover": "./database/opensource/repo/OCP2PCIe/assets/images/OCP2PCIe-cover.jpg"
+        }
+    ]
+}

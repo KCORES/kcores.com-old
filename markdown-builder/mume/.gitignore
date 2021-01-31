@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+coverage
+node_modules
+out
+test.js
