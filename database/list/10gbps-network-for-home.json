@@ -8,6 +8,7 @@
             "desc":"MikroTik 新出了个 8 口 1G, 2 口 10G 的新交换机 CSS610-8G-2S+IN.",
             "link":"https://zhuanlan.zhihu.com/p/345291283",
             "author":"@Karminski-牙医",
+            "authorLevel": 7,
             "date":"2021-01-19",
             "cover":"./assets/content-image/entry-cover/v2-ad70b3f616148fe619669e7f49bda5b8_r.jpg"  
         },
@@ -16,6 +17,7 @@
             "desc":"接上篇, 如何给 OCP 卡刷固件. 本文同样适用于其他 Mellanox 网卡",
             "link":"https://zhuanlan.zhihu.com/p/114822136",
             "author":"@Karminski-牙医",
+            "authorLevel": 7,
             "date":"2020-03-20",
             "cover":"./assets/content-image/entry-cover/v2-5008c412be880658164ea73d22164f6a_1440w.jpg"  
         },
@@ -24,6 +26,7 @@
             "desc":"25块, 搞定一张万兆网卡!",
             "link":"https://www.bilibili.com/video/BV1a7411Z7oD",
             "author":"@AlphaArea (awpak78)",
+            "authorLevel": 7,
             "date":"2020-03-18",
             "cover":"./assets/content-image/entry-cover/20200923173659.png"
         },
@@ -32,6 +35,7 @@
             "desc":"浅谈用万兆网络该如何布线",
             "link":"https://zhuanlan.zhihu.com/p/78384704",
             "author":"@Karminski-牙医",
+            "authorLevel": 7,
             "date":"2019-08-19",
             "cover":"./assets/content-image/entry-cover/v2-b398ce47c293ef172aefaf3287d0d385_r.jpg"
         },
@@ -40,6 +44,7 @@
             "desc":"是时候发挥垃圾佬的优良作风了, IDC 下架万兆交换机魔改变家用万兆交换机",
             "link":"https://zhuanlan.zhihu.com/p/77243708",
             "author":"@Karminski-牙医",
+            "authorLevel": 7,
             "date":"2019-08-08",
             "cover":"./assets/content-image/entry-cover/v2-1537af9fdff1ab90d4e5adf8f0d376f6_r.jpg"
         },
@@ -48,6 +53,7 @@
             "desc":"想要万兆交换机? 来看看这个个方案",
             "link":"https://zhuanlan.zhihu.com/p/76578200",
             "author":"@Karminski-牙医",
+            "authorLevel": 7,
             "date":"2019-08-04",
             "cover":"./assets/content-image/entry-cover/v2-2a3e9b139b7b2262dd36314baf3b34a4_r.jpg"
         },
@@ -56,6 +62,7 @@
             "desc":"想用光网络? 那么该如何挑选光纤和光模块呢? 且看本文",
             "link":"https://zhuanlan.zhihu.com/p/76400103",
             "author":"@Karminski-牙医",
+            "authorLevel": 7,
             "date":"2019-08-02",
             "cover":"./assets/content-image/entry-cover/v2-1cdf4833e26021970ad8cd3c32f46670_r.jpg"
         },
@@ -64,6 +71,7 @@
             "desc":"一步到位, 100G, 不废话, 感受下电脑跟不上网速是什么感觉.",
             "link":"https://zhuanlan.zhihu.com/p/74082377",
             "author":"@Karminski-牙医",
+            "authorLevel": 7,
             "date":"2019-07-18",
             "cover":"./assets/content-image/entry-cover/v2-e098c57b6f627358bae05ba37de5b00d_1440w.jpg"
         },
@@ -72,6 +80,7 @@
             "desc": "三种简单方案的介绍.",
             "link": "https://www.zhihu.com/question/39304529/answer/570797523",
             "author": "@Karminski-牙医",
+            "authorLevel": 7,
             "date": "2019-07-27",
             "cover": "./assets/content-image/entry-cover/v2-9161715d88b2013f6dabb41dd6ea00a5_r.jpg"
         }

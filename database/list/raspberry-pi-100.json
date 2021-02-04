@@ -9,6 +9,16 @@
             "desc":"树莓派搞了个大新闻, RP2040 微控制器和 Pi Pico 开发板. 没错, 这是树莓派的第一款微控制器开发板, 也是树莓派第一款自主设计的 IC.",
             "link":"https://zhuanlan.zhihu.com/p/346118448",
             "author":"@Karminski-牙医",
+            "authorLevel": 7,
+            "date":"2021-01-23",
+            "cover":"./assets/content-image/entry-cover/v2-b4620006ba7bb7de508b9f9bb18c8799_r.jpg"
+        },
+        {
+            "title":"树莓派的 100 种玩法 5 - 树莓派 Pico 的有趣周边",
+            "desc":"上一篇为大家介绍了新出的树莓派 Pico, 本篇我整理了下现有的比较有趣的树莓派 Pico 扩展和其他方案, 有些还是挺有意思的, 请看.",
+            "link":"https://zhuanlan.zhihu.com/p/346378204",
+            "author":"@Karminski-牙医",
+            "authorLevel": 7,
             "date":"2021-01-22",
             "cover":"./assets/content-image/entry-cover/v2-54c7d976f21dcd837108042dd7a95878_r.jpg"
         },
@@ -17,6 +27,7 @@
             "desc":"树莓派也能安装 ESXi ? 没错, VMWare 为了占领 Arm 市场, 搞了 ESXi-Arm. 本文就教大家如何在树莓派 4 上安装 ESXi.",
             "link":"https://zhuanlan.zhihu.com/p/270495785",
             "author":"@Karminski-牙医",
+            "authorLevel": 7,
             "date":"2020-10-31",
             "cover":"./assets/content-image/entry-cover/v2-0b0fe58e1d5ba07d30d06fb03e114ab6_b.jpg"
         },
@@ -25,6 +36,7 @@
             "desc":"树莓派 4 自带了 EEPROM (4MBits/512KB) 用于启动系统. 安装比较新的系统或安装 ESXi 需要更新树莓派 4 的 EEPROM. 本文教大家如何更新树莓派4 的EEPROM.",
             "link":"https://zhuanlan.zhihu.com/p/270478550",
             "author":"@Karminski-牙医",
+            "authorLevel": 7,
             "date":"2020-10-31",
             "cover":"./assets/content-image/entry-cover/v2-90060131655d51f75a9dfba2c5bcd164_b.jpg"
         },
@@ -33,6 +45,7 @@
             "desc":"本文介绍如何给树莓派 4B 安装 Ubuntu Server 20.04.1. 顺便, 本文还介绍了在树莓派没办法连接显示器和键盘的情况下, 如何确定树莓派的 IP 地址并登陆进去等一些实用小技巧. 聪明的你还可以用这些学到的新技巧去扫描你的网络, 发现未知.",
             "link":"https://zhuanlan.zhihu.com/p/266210499",
             "author":"@Karminski-牙医",
+            "authorLevel": 7,
             "date":"2020-10-16",
             "cover":"./assets/content-image/entry-cover/raspberry-pi-4-install-ubuntu-server.jpg"
         },
@@ -41,6 +54,7 @@
             "desc":"树莓派4B能跑满千兆吗? 树莓派4B作为web服务器最大能达到多少QPS?",
             "link":"https://zhuanlan.zhihu.com/p/84879836",
             "author":"@Karminski-牙医",
+            "authorLevel": 7,
             "date":"2019-09-30",
             "cover":"./assets/content-image/entry-cover/v2-e02eefac503ca5f2db3169b858018c21_r.jpg"
         }
