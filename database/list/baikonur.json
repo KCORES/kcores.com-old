@@ -1,0 +1,17 @@
+{
+    "toipc": "拜科努尔发射场",
+    "topicIcon": "./assets/content-image/topic-icon/baikonur.png",
+    "topicDesc": "服务器评测栏目, 倒计时, 3, 2, 1, 插电! 发射!",
+    "longTopicDesc": "服务器评测栏目, 倒计时, 3, 2, 1, 插电! 发射!",
+    "entryList": [
+        {
+            "title": "HPE DL320E Gen8 V2 准系统测评",
+            "desc": "DL320e G8V2是C222 1150平台, 用于轻量的计算任务, 准系统价格最低350, 板载BCM5720, 还有ILO.",
+            "link": "https://www.rog-net.com/?p=120",
+            "author": "@rog-net",
+            "authorLevel": 4,
+            "date": "2021-02-04",
+            "cover": "./assets/content-image/entry-cover/hpe-dl320e-gen8-v2-evaluating.jpg"
+        }
+    ]
+}

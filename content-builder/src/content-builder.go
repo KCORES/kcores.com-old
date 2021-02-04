@@ -12,7 +12,8 @@ import (
     "crypto/md5"
     "os"
     "sort"
-    "image"
+	"image"
+	"strconv"
     _ "image/jpeg"
     _ "image/png"
     _ "image/gif"
@@ -20,6 +21,10 @@ import (
 
 const (
     CONTENT_BUILDER_VERSION = "0.0.2"
+)
+
+const (
+	AUTHOR_LEVEL_PREFIX = "author_level_"
 )
 
 const (
@@ -45,12 +50,13 @@ type Topic struct {
 }
 
 type Entry struct {
-    Title  string `json:title`
-    Desc   string `json:desc`
-    Link   string `json:link`
-    Author string `json:author`
-    Date   string `json:date`
-    Cover  string `json:cover`
+    Title  		string `json:title`
+    Desc   		string `json:desc`
+    Link   		string `json:link`
+    Author 		string `json:author`
+    AuthorLevel int    `json:authorLevel`
+    Date   		string `json:date`
+    Cover  		string `json:cover`
 }
 
 type Topics []Topic
@@ -136,7 +142,7 @@ func DumpTopic(Topic Topic) {
     fmt.Printf("Topic.ListPageId :	%s\n", Topic.ListPageId)
     fmt.Printf("Topic.EntryList :\n")
     for k, v := range Topic.EntryList {
-        fmt.Printf("    Topic.EntryList.Title: %d. %s\n", k+1, v.Title)
+        fmt.Printf("    Topic.EntryList.Title: %d. %s %d\n", k+1, v.Title, v.AuthorLevel)
     }
     fmt.Printf("\n\n")
 }
@@ -189,12 +195,13 @@ func GenerateReadingPage(AllEntrys AllEntrys) {
     readingPage += READING_P1
     for _, entry := range AllEntrys {
         _, imgHeight := getImageDimension(REPO_DIR + entry.Cover)
-        fmt.Printf("Now image height: %dpx.\n", imgHeight)
+		fmt.Printf("Now image height: %dpx.\n", imgHeight)
         section1 += fmt.Sprintf(READING_P2, 
             boxCounter,
             entry.Cover,
             entry.Link,
-            entry.Title,
+			entry.Title,
+			AUTHOR_LEVEL_PREFIX+strconv.Itoa(entry.AuthorLevel),
             entry.Author,
             entry.Date)
         boxCounter ++
@@ -239,7 +246,8 @@ func GenerateListPage(Topic Topic) {
             boxCounter,
             entry.Cover,
             entry.Link,
-            entry.Title,
+			entry.Title,
+			AUTHOR_LEVEL_PREFIX+strconv.Itoa(entry.AuthorLevel),
             entry.Author,
             entry.Date)
         boxCounter ++

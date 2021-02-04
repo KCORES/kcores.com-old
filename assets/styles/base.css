@@ -134,3 +134,30 @@ nav a:hover {
     }
 }
 
+.author_level_1 {
+    color: #909090;
+}
+
+.author_level_2 {
+    color: #006e54;
+}
+
+.author_level_3 {
+    color: #1e50a2 ;
+}
+
+.author_level_4 {
+    color: #f4b3c2;
+}
+
+.author_level_5 {
+    color: #d3381c;
+}
+
+.author_level_6 {
+    color: #e6b422;
+}
+
+.author_level_7 {
+    color: #884898;
+}

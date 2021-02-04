@@ -77,7 +77,7 @@ const LIST_P3 = `
           <img src="%s" alt="">
         </div>
         <div class="entry-title"><a target="_blank" href="%s">%s</a></div>
-        <div class="entry-info">%s / %s</div>
+        <div class="entry-info"><b class="%s">%s</b> / %s</div>
       </div>
 `
 

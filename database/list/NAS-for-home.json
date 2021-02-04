@@ -9,6 +9,7 @@
             "desc": "树莓派4B能跑满千兆吗? 树莓派4B作为web服务器最大能达到多少QPS?",
             "link": "https://www.zhihu.com/question/21359049/answer/622344230",
             "author": "@Karminski-牙医",
+            "authorLevel": 7,
             "date": "2019-03-14",
             "cover": "./assets/content-image/entry-cover/v2-3aa84c70ac31e91cdb2866419fe2f284_r.jpg"
         },
@@ -17,6 +18,7 @@
             "desc": "简单对比各种 NAS 方案的优劣",
             "link": "https://zhuanlan.zhihu.com/p/48527909",
             "author": "@AlphaArea (awpak78)",
+            "authorLevel": 7,
             "date": "2018-11-04",
             "cover": "./assets/content-image/entry-cover/v2-fede14aaf0311274e7f82e41891877a8_r.jpg"
         },
@@ -25,6 +27,7 @@
             "desc": "这是\"用一块4TB硬盘的售价装（捡）一台4TB NAS计划\"的一部分, 不过NAS尚未完全体, 完成后会单独开一个贴.",
             "link": "https://zhuanlan.zhihu.com/p/45799912",
             "author": "@AlphaArea (awpak78)",
+            "authorLevel": 7,
             "date": "2018-10-01",
             "cover": "./assets/content-image/entry-cover/v2-6fec40260d6aad7ca828ed9cb90a7c26_r.jpg"
         }
