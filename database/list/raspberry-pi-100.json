@@ -10,6 +10,15 @@
             "link":"https://zhuanlan.zhihu.com/p/346118448",
             "author":"@Karminski-牙医",
             "authorLevel": 7,
+            "date":"2021-01-23",
+            "cover":"./assets/content-image/entry-cover/v2-b4620006ba7bb7de508b9f9bb18c8799_r.jpg"
+        },
+        {
+            "title":"树莓派的 100 种玩法 5 - 树莓派 Pico 的有趣周边",
+            "desc":"上一篇为大家介绍了新出的树莓派 Pico, 本篇我整理了下现有的比较有趣的树莓派 Pico 扩展和其他方案, 有些还是挺有意思的, 请看.",
+            "link":"https://zhuanlan.zhihu.com/p/346378204",
+            "author":"@Karminski-牙医",
+            "authorLevel": 7,
             "date":"2021-01-22",
             "cover":"./assets/content-image/entry-cover/v2-54c7d976f21dcd837108042dd7a95878_r.jpg"
         },
