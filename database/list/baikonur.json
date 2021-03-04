@@ -1,9 +1,27 @@
 {
     "toipc": "拜科努尔发射场",
     "topicIcon": "./assets/content-image/topic-icon/baikonur.png",
-    "topicDesc": "服务器评测栏目, 倒计时, 3, 2, 1, 插电! 发射!",
-    "longTopicDesc": "服务器评测栏目, 倒计时, 3, 2, 1, 插电! 发射!",
+    "topicDesc": "服务器/准系统评测栏目, 倒计时, 3, 2, 1, 插电! 发射!",
+    "longTopicDesc": "服务器/准系统评测栏目, 倒计时, 3, 2, 1, 插电! 发射!",
     "entryList": [
+        {
+            "title": "如何实现PCIE热插拔",
+            "desc": "大部分服务器/工作站/HEDT主板均支持PCIE热插拔，但是大部分厂商BIOS设计保守，默认关闭PCIE热插拔功能",
+            "link": "https://zhuanlan.zhihu.com/p/353130322",
+            "author": "@rog-net",
+            "authorLevel": 4,
+            "date": "2021-03-03",
+            "cover": "./assets/content-image/entry-cover/pcie-hot-plug.jpg"
+        },
+        {
+            "title": "超微C612服务器测评",
+            "desc": "X10SRL-F芯片组是C612，支持E5V3/V4系列的CPU",
+            "link": "https://zhuanlan.zhihu.com/p/353835882",
+            "author": "@rog-net",
+            "authorLevel": 4,
+            "date": "2021-03-02",
+            "cover": "./assets/content-image/entry-cover/supermicro-c612-evaluating.jpg"
+        },
         {
             "title": "HPE DL320E Gen8 V2 准系统测评",
             "desc": "DL320e G8V2是C222 1150平台, 用于轻量的计算任务, 准系统价格最低350, 板载BCM5720, 还有ILO.",
