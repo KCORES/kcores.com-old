@@ -60,6 +60,16 @@ body {
     font-size: 0.2rem;
     font-weight: 600;
     position: absolute;
+    bottom: 1.2rem;
+    right: 0;
+}
+
+#other-entry-1 {
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 0.2rem;
+    font-size: 0.2rem;
+    font-weight: 600;
+    position: absolute;
     bottom: 0.5rem;
     right: 0;
 }

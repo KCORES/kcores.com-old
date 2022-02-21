@@ -104,6 +104,10 @@ body {
     color: #ff8140;
     padding-right: 1em;
 }
+.link-smzdm {
+    color: #d23c3c;
+    padding-right: 1em;
+}
 
 @media (max-width: 800px) {
     .desc-info {
