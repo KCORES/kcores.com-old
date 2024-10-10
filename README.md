@@ -1,6 +1,10 @@
 KCORES.com 主站
 ---------------
 
+# Warrning
+
+该项目已经归档并停用, 新的 kcores.com 主页详见: https://github.com/kcores/kcores.com
+
 # Desc
 
 该项目为 kcores.com 主站和主站静态内容生成器. 
