@@ -5027,9 +5027,9 @@ vega-loader@^4.1.0:
     vega-util "^1.11.0"
 
 vega-util@^1.11.0:
-  version "1.12.1"
-  resolved "https://registry.npm.taobao.org/vega-util/download/vega-util-1.12.1.tgz#ade1c27ab30e6e330d4d3a99d108d2365ac08db0"
-  integrity sha1-reHCerMObjMNTTqZ0QjSNlrAjbA=
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/vega-util/-/vega-util-1.16.1.tgz#992bf3c3b6e145797214d99862841baea417ba39"
+  integrity sha512-FdgD72fmZMPJE99FxvFXth0IL4BbLA93WmBg/lvcJmfkK4Uf90WIlvGwaIUdSePIsdpkZjBPyQcHMQ8OcS8Smg==
 
 verror@1.10.0:
   version "1.10.0"
